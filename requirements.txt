@@ -1,0 +1,33 @@
+# --- LangChain core + integrations ---
+langchain-core==1.5.1
+langchain-classic==1.0.8
+langchain-community==0.4.2
+langchain-ollama==1.1.0
+langchain-protocol==0.0.18
+langchain-text-splitters==1.1.2
+langsmith==0.10.10
+
+# --- Local LLM runtime ---
+ollama==0.6.2
+
+# --- Vector store / retrieval ---
+faiss-cpu==1.14.3
+numpy==2.4.0
+
+# --- Structured output / schema validation ---
+pydantic==2.13.4
+pydantic-settings==2.14.2
+pydantic_core==2.46.4
+
+# --- Config / env vars ---
+python-dotenv==1.2.2
+
+# --- Notebook environment ---
+jupyterlab==4.6.1
+notebook==7.6.0
+ipykernel==7.3.0
+
+# problem with parsing the output when using mistral for now
+# pypdf==6.10.2
+# pdfplumber==0.11.9
+# python-docx==1.2.0
